@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(148, 144, 105);
+    
+}
+
+.nav{
+    text-decoration: none;
+    background-color: rgb(211, 200, 163);
+    width: 98%;
+    text-align: center;
+    position: inherit;
+    font: 20px white;
+    word-spacing: 50px;
+    padding: 10px;
+}
+
+a:link{
+    color: white;
+    text-decoration: none;
+}
+
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    font: bold;
+}
+
+#main{
+    background-color: white;
+    width: 900px;
+    text-align: center;
+}
