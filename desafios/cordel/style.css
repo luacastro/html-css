@@ -8,25 +8,42 @@ header{
     background-color: black;
     margin: none;
     text-align: center;
+    color: white;
 }
 h1{
-    color: white;
     font-size: 5em; 
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-variant: small-caps;
     font-weight: bold;
     word-spacing: 7px;
     padding: 20px;
 }
-h3{
-    color: white;
+a{
+    color: inherit;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
 }
 footer{
     background-color: black;
+    padding: 20px;
 }
 section{
-    display: block;
     font-size: 2em;
-    font-family: ;
+    padding-bottom: 10vh;
+    padding-top: 10vh;
+    padding-left: 30px;
+    line-height: 2em;
+    font-family: monospace;
+    text-decoration: wavy;
+}
+.img{
+    background-color: rgb(105, 105, 105);
+}
+.img p {
+    background-color: rgba(0, 0, 0, 0.808);
+    width: 500px;
+    color: white;
 }
 .credito{
     color: white;
