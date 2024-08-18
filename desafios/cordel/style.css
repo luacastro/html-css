@@ -70,7 +70,7 @@ section > p {
     background-size: cover;
 }
 #img02{
-    background-image: url(=background002.jpg);
+    background-image: url(background002.jpg);
     background-position: right center;
     background-size: cover;
 }
