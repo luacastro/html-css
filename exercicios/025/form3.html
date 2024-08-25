@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form 3</title>
+</head>
+<body>
+    <h1>mais um</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <p>
+            <label for="inome">Nome: </label>
+            <input type="text" name="nome" id="inome" minlength="3" maxlength="30" required autocomplete="name" placeholder="Nome completo" size="15">
+        </p>
+        <p>
+            <label for="inasc"></label>
+            <input type="date" name="nasc" id="inasc" required>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
